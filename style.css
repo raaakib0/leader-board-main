@@ -1,0 +1,80 @@
+body{
+    background-color: #E5E5E5;
+}
+h2{
+    color: #562EFF;
+}
+.navbar{
+    background-color: #562EFF;
+    height: 94px;
+}
+
+.first-section {
+background-color: #FFFFFF;
+    margin-left: 225px;
+        margin-right: 225px;
+        margin-top: 30px;
+        padding: 20px;
+}
+
+.first-section-player{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+padding-bottom: 20px;
+border-bottom: solid #D1D1D1;
+}
+
+.player-flex{
+    display: flex;
+}
+.image_player img{
+    height: 56px;
+    width: 56px;
+    margin-right: 10px;
+}
+
+/* blog section */
+.first-section-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+.blog-flex {
+    display: flex;
+}
+
+.image_blog img {
+    height: 117px;
+    width: 177px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* last part */
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.course-item{
+    box-shadow: 3px 3px  #D1D1D1;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.last-image img{
+    width: 224px;
+    height: 104px;
+}
+.star-part{
+    display: flex;
+    justify-content: space-between;
+}
+.duration{
+    background-color: lightpink;
+    border-radius: 20px;
+    padding: 5px;
+}
